@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A02282178CFF24038DE328DD /* PeerMeshDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1761D15F41EAE63791D748A /* PeerMeshDemoApp.swift */; };
+		D5E479DF1ED9A1D5FB8EB1BB /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEE91AA053768764A46C094 /* Chat.swift */; };
+		4EB8FFF138C583AFF5E434C8 /* PeersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2AE4D7085F361B6FAD5790 /* PeersView.swift */; };
+		C1F197370F873406B006FE3E /* ConversationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE09A84A68BDA5C2022CA34 /* ConversationView.swift */; };
+		F8CE3A38A4323966E8EC3F24 /* PeerMesh in Frameworks */ = {isa = PBXBuildFile; productRef = DF70F54548AFA16E45CA723E /* PeerMesh */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0FCCB91A0872D5DB5857147D /* PeerMeshDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeerMeshDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1761D15F41EAE63791D748A /* PeerMeshDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerMeshDemoApp.swift; sourceTree = "<group>"; };
+		8AEE91AA053768764A46C094 /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		4D2AE4D7085F361B6FAD5790 /* PeersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeersView.swift; sourceTree = "<group>"; };
+		2DE09A84A68BDA5C2022CA34 /* ConversationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationView.swift; sourceTree = "<group>"; };
+		4B4C798B2B162CBC10C7FB42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8ADFB71453A8785F0068A3A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8CE3A38A4323966E8EC3F24 /* PeerMesh in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9AFDB620CA51CB71470938C2 = {
+			isa = PBXGroup;
+			children = (
+				D8C57F300CB147F91EC38656 /* PeerMeshDemo */,
+				C0C856D9A678D5F08E33B775 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8C57F300CB147F91EC38656 /* PeerMeshDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A1761D15F41EAE63791D748A /* PeerMeshDemoApp.swift */,
+				8AEE91AA053768764A46C094 /* Chat.swift */,
+				4D2AE4D7085F361B6FAD5790 /* PeersView.swift */,
+				2DE09A84A68BDA5C2022CA34 /* ConversationView.swift */,
+				4B4C798B2B162CBC10C7FB42 /* Info.plist */,
+			);
+			path = PeerMeshDemo;
+			sourceTree = "<group>";
+		};
+		C0C856D9A678D5F08E33B775 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0FCCB91A0872D5DB5857147D /* PeerMeshDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		406CD631489EC60604171177 /* PeerMeshDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F5925BD1725EA1B48258006 /* Build configuration list for PBXNativeTarget "PeerMeshDemo" */;
+			buildPhases = (
+				52C0850ED7B639D2F18D329C /* Sources */,
+				8ADFB71453A8785F0068A3A7 /* Frameworks */,
+				3909203596449958CA27CC45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PeerMeshDemo;
+			packageProductDependencies = (
+				DF70F54548AFA16E45CA723E /* PeerMesh */,
+			);
+			productName = PeerMeshDemo;
+			productReference = 0FCCB91A0872D5DB5857147D /* PeerMeshDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		018F8C9E58A17A533CEDAC27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					406CD631489EC60604171177 = {
+						CreatedOnToolsVersion = 26.0;
+					};
+				};
+			};
+			buildConfigurationList = 8D3B18A150268D3B685E343B /* Build configuration list for PBXProject "PeerMeshDemo" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9AFDB620CA51CB71470938C2;
+			packageReferences = (
+				67E0408C916E762144861F4E /* XCLocalSwiftPackageReference "../.." */,
+			);
+			productRefGroup = C0C856D9A678D5F08E33B775 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				406CD631489EC60604171177 /* PeerMeshDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3909203596449958CA27CC45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52C0850ED7B639D2F18D329C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A02282178CFF24038DE328DD /* PeerMeshDemoApp.swift in Sources */,
+				D5E479DF1ED9A1D5FB8EB1BB /* Chat.swift in Sources */,
+				4EB8FFF138C583AFF5E434C8 /* PeersView.swift in Sources */,
+				C1F197370F873406B006FE3E /* ConversationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FB86D18AFDA5D314806FB079 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7CA0DAA5EF3602BB38FC40BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FF362867A11F0DE05A10FAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8W9TBBHQFA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PeerMeshDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "PeerMesh Demo";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "PeerMesh Demo uses Bluetooth to find and talk to nearby phones running it.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rs.streamsoft.PeerMeshDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		19D8DC415DB67429A679DF27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8W9TBBHQFA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PeerMeshDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "PeerMesh Demo";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "PeerMesh Demo uses Bluetooth to find and talk to nearby phones running it.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = rs.streamsoft.PeerMeshDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F5925BD1725EA1B48258006 /* Build configuration list for PBXNativeTarget "PeerMeshDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FF362867A11F0DE05A10FAA /* Debug */,
+				19D8DC415DB67429A679DF27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D3B18A150268D3B685E343B /* Build configuration list for PBXProject "PeerMeshDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB86D18AFDA5D314806FB079 /* Debug */,
+				7CA0DAA5EF3602BB38FC40BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		67E0408C916E762144861F4E /* XCLocalSwiftPackageReference "../.." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../..;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DF70F54548AFA16E45CA723E /* PeerMesh */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PeerMesh;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 018F8C9E58A17A533CEDAC27 /* Project object */;
+}

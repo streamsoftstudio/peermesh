@@ -131,6 +131,12 @@ Bluetooth.
 
 [docs/Specification.md](docs/Specification.md) describes the behavior in full.
 
+## Demo
+
+[Examples/PeerMeshDemo](Examples/PeerMeshDemo) is a small app for trying PeerMesh
+on real phones. It lists the phones in reach, sends messages and pings, and shows
+messages that arrive while the screen is locked.
+
 ## License
 
 PeerMesh is available under the Apache License 2.0. See [LICENSE](LICENSE) for
